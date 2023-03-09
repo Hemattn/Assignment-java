@@ -1,6 +1,4 @@
-package assignment5;
-
-import java.sql.SQLOutput;
+package assignment_F1_streams;
 
 public class QueOne {
     public static void main(String[] args) {

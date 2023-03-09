@@ -1,5 +1,5 @@
 package Assignment_F2_streams;
-interface MyInterface {
+interface My_interface {
     // Default method
     default void defaultMethod() {
         System.out.println("This is a default method.");
@@ -11,14 +11,12 @@ interface MyInterface {
     }
 }
 
-// To access the default method, you can create an instance of a class that implements the interface and call the method on it.
-public class Question2 implements MyInterface {
+public class Question2 implements My_interface {
     public static void main(String[] args) {
         Question2 obj = new Question2();
-        obj.defaultMethod(); // Output: This is a default method.
+        obj.defaultMethod();
     }
 }
 
-// To access the static method, you can call it directly on the interface.
 
 
