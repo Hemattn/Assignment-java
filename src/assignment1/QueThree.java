@@ -2,11 +2,11 @@ package assignment1;
 import java.util.Scanner;
 public class QueThree {
 
-    public double Area_circle(int r){
+    public static double areaOfCircle(int r){
         double area=3.14*r*r;
         return area;
     }
-    public double Circumference(int r){
+    public static double circumferenceOfCircle(int r){
         double c=2*3.14*r;
         return c;
     }
@@ -27,10 +27,10 @@ public class QueThree {
         switch (choice)
         {
             case 1:
-                System.out.println(q3.Area_circle(r));
+                System.out.println(areaOfCircle(r));
                 break;
             case 2:
-                System.out.println( q3.Circumference(r));
+                System.out.println( circumferenceOfCircle(r));
                 break;
             case 3:
                 System.out.println("Exit");

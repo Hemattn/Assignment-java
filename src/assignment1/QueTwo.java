@@ -8,7 +8,7 @@ public class QueTwo {
             System.out.println("Enter text: and 'XDONE' to exit");
             while (true) {
                 String s = sc.nextLine();
-                if (s.equals("XDONE")) {
+                if (s.equalsIgnoreCase("XDONE")) {
                     break;
                 }
                 inputString += s + "\n";
